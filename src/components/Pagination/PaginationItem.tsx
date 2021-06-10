@@ -8,7 +8,7 @@ interface PaginationItemProps {
 export function PaginationItem({
   isCurrent = false,
   number,
-}): PaginationItemProps {
+}: PaginationItemProps) {
   if (isCurrent) {
     return (
       <Button
